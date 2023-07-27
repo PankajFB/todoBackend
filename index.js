@@ -15,6 +15,7 @@ connectDB();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+// cors
 app.use(cors());
 
 //route for getting all tasks
